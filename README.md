@@ -36,7 +36,7 @@ Setup requirements
 * Make sure that .NET Software Development Kit 5 and MySQL have been installed to your local machine.
 
 Database setup
-* Run the following commands in MySQL to set up this project database:
+* Run the following commands in MySQL to set up this project database with your own first name and last name for the database name:
 ```
 CREATE DATABASE firstname_lastname;
 USE firstname_lastname;
