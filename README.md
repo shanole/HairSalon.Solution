@@ -17,7 +17,7 @@
 
 ## Description <a id="description"></a>
 
-This is a web application made using C# and .NET5...
+This is a web application made using C#, .NET5, MySQL, and Entity to track a hypothetical hair salon's clients and stylists. This project demonstrates understanding of Database basics and one-to-many relationships.
 
 ## Technologies Used <a id="technologies"></a>
 
@@ -33,8 +33,7 @@ This is a web application made using C# and .NET5...
 ## Setup/Installation Requirements <a id="setup"></a>
 
 Setup requirements
-* Make sure that .NET Software Development Kit 5 has been installed to your local machine.
-* Setup MySQL...
+* Make sure that .NET Software Development Kit 5 and MySQL have been installed to your local machine.
 
 Database setup
 * Run the following commands in MySQL to set up this project database:
@@ -70,6 +69,8 @@ Installation
 * Run program with command `$ dotnet run` to open webpage on your preferred browser at `http://localhost:5000`
 
 ## Schema <a id="schema"></a>
+
+
 
 ## Known Bugs <a id="bugs"></a>
 * None known at this time. If you find one, please don't hesitate to contact me about it!
