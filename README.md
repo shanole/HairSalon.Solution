@@ -70,7 +70,7 @@ Installation
 
 ## Schema <a id="schema"></a>
 
-
+![schema design](https://github.com/shanole/HairSalon.Solution/blob/main/hairsalonschema.png?raw=true)
 
 ## Known Bugs <a id="bugs"></a>
 * None known at this time. If you find one, please don't hesitate to contact me about it!
