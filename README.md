@@ -38,19 +38,19 @@ Setup requirements
 Database setup
 * Run the following commands in MySQL to set up this project database with your own first name and last name for the database name:
 ```
-CREATE DATABASE firstname_lastname;
-USE firstname_lastname;
+CREATE DATABASE shannon_lee;
+USE shannon_lee;
 CREATE TABLE stylists (
-  StylistId int(11) NOT NULL AUTO_INCREMENT,
-  Name varchar(255) DEFAULT NULL,
-  Details varchar(255) DEFAULT NULL,
-  PRIMARY KEY(StylistId)
+  stylistid int(11) NOT NULL AUTO_INCREMENT,
+  name varchar(255) DEFAULT NULL,
+  details varchar(255) DEFAULT NULL,
+  PRIMARY KEY(stylistid)
 );
 CREATE TABLE clients (
-  ClientId int(11) NOT NULL AUTO_INCREMENT,
-  Name varchar(255) DEFAULT NULL,
-  StylistId int(11) NOT NULL DEFAULT '0',
-  PRIMARY KEY(ClientId)
+  clientid int(11) NOT NULL AUTO_INCREMENT,
+  name varchar(255) DEFAULT NULL,
+  stylistid int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY(clientid)
 );
 ```
 
@@ -61,7 +61,7 @@ Installation
 ```
 {
   "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=<FIRSTNAME_LASTNAME>;uid=root;pwd=<YOUR PASSWORD HERE>;"
+      "DefaultConnection": "Server=localhost;Port=3306;database=shannon_lee;uid=root;pwd=<YOUR PASSWORD HERE>;"
   }
 }
 ```
